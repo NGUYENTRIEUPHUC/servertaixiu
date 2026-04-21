@@ -1,3 +1,5 @@
+// CODE ĐƯỢC VIẾT BỞI PHUCCODER14 - @PHUCCODER14 - @REALPHUCBABY
+// MANG MỤC ĐÍCH HỌC TẬP - NẾU BẠN MANG ĐI KINH DOANH CHÚNG TÔI SẼ KHÔNG CHỊU TRÁCH NHIỆM PHÁP LÝ!
 var express = require("express");
 var socketIO = require("socket.io");
 var request = require('request');
