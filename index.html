@@ -1,1 +1,135 @@
-Hello world
+
+---
+
+## 🌐 File HTML giới thiệu game (dùng luôn)
+
+```html
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tài Xỉu Server</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            opacity: 0.8;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .box {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .box h2 {
+            margin-top: 0;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .feature {
+            background: #334155;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            background: #22c55e;
+            color: #000;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: #16a34a;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🎲 Tài Xỉu Server</h1>
+    <p>Chạy Trực Tiếp Trên Hosting - Không Cần VPS</p>
+    <button onclick="alert('Demo kết nối API')">Xem Demo</button>
+</header>
+
+<section>
+    <div class="box">
+        <h2>🔥 Giới Thiệu</h2>
+        <p>Hệ thống server tài xỉu được xây dựng bằng PHP, dễ dàng triển khai trên hosting mà không cần VPS hay server riêng.</p>
+    </div>
+
+    <div class="box">
+        <h2>⚡ Tính Năng</h2>
+        <div class="features">
+            <div class="feature">Không cần VPS</div>
+            <div class="feature">API JSON đơn giản</div>
+            <div class="feature">Dễ tích hợp</div>
+            <div class="feature">Chạy ổn định</div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>🧠 Cách Hoạt Động</h2>
+        <p>Client sẽ gửi request đến server, server xử lý và trả về kết quả dưới dạng JSON để frontend hiển thị.</p>
+    </div>
+
+    <div class="box">
+        <h2>🔗 API Ví Dụ</h2>
+        <pre>
+{
+  "result": "tai",
+  "dice": [6,5,4],
+  "total": 15
+}
+        </pre>
+    </div>
+</section>
+
+<footer>
+    © 2026 Tài Xỉu Server - All Rights Reserved
+</footer>
+
+</body>
+</html>
