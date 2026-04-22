@@ -8,7 +8,7 @@
 
 Dự Án Này Là Một Hệ Thống Server Tài Xỉu Hoạt Động Đơn Giản Và Chuyên Nghiệp, Phù Hợp Deploy Trên Hosting Thông Thường Nhằm Mục Đích Học Tập Là Chủ Yếu
 
-![Giới Thiệu][(https://i.ibb.co/Kx4yf3HM/Screenshot-2026-04-22-180728.png)]
+![Giới Thiệu](https://i.ibb.co/Kx4yf3HM/Screenshot-2026-04-22-180728.png)
 
 ---
 
